@@ -1,0 +1,1 @@
+https://www.connectionstrings.com/     <- site para pegar banco de dados

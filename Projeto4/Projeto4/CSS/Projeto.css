@@ -1,0 +1,118 @@
+﻿/*Projeto WEB */
+
+/*Cabeçalho*/
+
+
+
+.cabecalho
+{
+    height:81px;
+    width:100%;
+    border-bottom:1px solid #0094ff;
+
+    /*Permite que elementos tenham posições ABSOLUTAS dentro do cabeçalho */
+    position:relative;
+    
+
+}
+
+.logomarca
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:80px;
+    width:80px;
+  
+
+}
+
+.barra-titulo
+{
+    position:absolute;
+    top:0;
+    left:81px;
+    right:0;
+    height:40px;
+
+}
+
+.barra-menu {
+    position: absolute;
+    left: 81px;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    text-align:right;
+}
+   
+    .barra-menu a {
+        color: #333333;
+        font-size: 14px;
+        margin-left: 4px;
+        margin-right: 4px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+    }
+
+/* a = quando mouse passa por cima faz ação de sublinhar*/
+.barra-menu a:hover {
+    color:black;
+    border-bottom: 3px solid red;
+}
+
+
+.conteudo
+{
+  min-height:800px; /*altura minima se ultrapassar vai empurrando o rodape para baixo*/
+
+}
+
+.rodape
+{
+    height:200px;
+    background-color:#453f3f;
+}
+
+.box
+{
+    padding:10px;
+}
+
+.border
+{
+    border:1px solid #c0c0c0;
+}
+
+.margin-right-20
+{
+    margin-right:20px;
+}
+
+.margin-top-20{
+    margin-top:20px;
+}
+.margin-bottom-5
+{
+    margin-bottom:5px;
+}
+
+.margin-left-top{
+    margin-left:60px;
+    margin-top:40px;
+}
+
+.text-ajust
+{
+    text-align:justify;
+   
+}
+
+.text-alignCenter
+{
+    text-align:center;
+}
+
+
+

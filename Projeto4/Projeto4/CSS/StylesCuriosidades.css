@@ -1,0 +1,67 @@
+﻿.flexAlign-center
+{
+ display:flex;
+ justify-content:center;
+}
+
+.link-effect
+{
+   
+    color:red;
+    border-bottom:0px solid transparent ;
+    text-decoration:none;
+    
+}
+
+.link-effect:hover 
+{
+        color: blue;
+        border:1px solid blue;
+       
+}
+.margim-top-20
+{
+    margin-top:20px;
+}
+
+.margim-top-60 {
+    margin-top:60px;
+}
+
+.margin-left-40
+{
+    margin-left:40px;
+}
+
+.title-curiosidades {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.margin-bottom-40{
+    margin-bottom:40px;
+}
+
+.ajust-texts
+{
+    font: arial black 12px;
+    text-align:justify;
+    line-height:20px;
+}
+
+.image-size
+{
+    width:100px;
+    height:100px;
+}
+
+.image-size1 {
+    width: 120px;
+    height: 120px;
+}
+
+.conteudo-2
+{
+    min-height:400px;
+}

@@ -1,0 +1,17 @@
+Data: 31/05/2022 14:06:52
+Mensagem:System.Net.Mail.SmtpException: Falha ao enviar email. ---> System.Net.WebException: O nome remoto não pôde ser resolvido: 'smpt.seudominio.com'
+   em System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   em System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   em System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   em System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   em System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   em System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   em System.Net.Mail.SmtpClient.GetConnection()
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em Projeto4.FaleConosco.Enviar_Click(Object sender, EventArgs e) na C:\Users\0040482022016\Documents\Projeto4\Projeto4\FaleConosco.aspx.cs:linha 61
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em Projeto4.FaleConosco.Enviar_Click(Object sender, EventArgs e) na C:\Users\0040482022016\Documents\Projeto4\Projeto4\FaleConosco.aspx.cs:linha 61
+Local salvo:C:\Users\0040482022016\Documents\Projeto4\Projeto4\log.txt
+---------------------------------------

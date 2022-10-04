@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="Projeto4.Page" %>
+
+<!-- DICA PARA ATUALIZAR A MEMORIA CACHE DO NAVEGADOR CTRL+F5 (Atualiza os CSS da memoria) -->
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--Ref folha estilo-->
+    <link href="CSS/Projeto.css" rel="stylesheet" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+    <link href="CSS/StylesCuriosidades.css" rel="stylesheet" />
+    <!-- http://flexslider.woothemes.com/video.html -->
+    <!--Arquivos javaScript e CSS para exibir slides -->
+    
+    
+    <!-- Tem que ser nessa Ordem-->
+    <link href="JS/flexslider.css" rel="stylesheet" />
+    <script src="JS/jquery-1.7.2.min.js"></script>
+    <script src="JS/flexslider.min.js"></script>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="content-wrap">
+            <!-- Cabeçalho-->
+            <div class="cabecalho">
+
+                <!--Logomarca-->
+                <div class="logomarca">
+
+                    <asp:Image ImageUrl="~/Fotos/marca1.png" ID="Image1" runat="server" />
+
+
+                </div>
+
+                <!--Barra de titulo-->
+                <div class="barra-titulo">
+                </div>
+
+                <!--MENU-->
+                <div class="barra-menu">
+
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">Home</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">Sobre</asp:HyperLink>
+
+                    <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Curiosidades.aspx" runat="server">Curiosidades</asp:HyperLink>
+
+                     <asp:HyperLink ID="HyperLink4" NavigateUrl="~/FaleConosco.aspx" runat="server">FaleConosco</asp:HyperLink>
+
+                     <asp:HyperLink ID="HyperLink5" NavigateUrl="~/ExibirExcessoes.aspx" runat="server">Exibir Excessão</asp:HyperLink>
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+        <!-- Conteudo -->
+        <div class="conteudo content-wrap">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="rodape">
+        </div>
+
+
+    </form>
+</body>
+</html>
