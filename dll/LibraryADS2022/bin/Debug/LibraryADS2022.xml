@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryADS2022</name>
+    </assembly>
+    <members>
+        <member name="T:LibraryADS2022.TratamentoExcecao">
+            <summary>
+            Esta classe faz o tratamento das excessões e salva no arquivo de log Excessao.txt
+            </summary>
+        </member>
+        <member name="P:LibraryADS2022.TratamentoExcecao.FileName">
+            <summary>
+            Obtem ou define o nome do arquivo de log de excecoes
+            
+            </summary>
+        </member>
+        <member name="M:LibraryADS2022.TratamentoExcecao.SaveException(System.Exception)">
+            <summary>
+            Salva a excessao 
+            </summary>
+            <param name="ex"></param>
+        </member>
+        <member name="M:LibraryADS2022.TratamentoExcecao.LoadException">
+            <summary>
+            Recupera todas as ocorrencias no arquivo excessao.txt
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibraryADS2022.TratamentoExcecao.DeleteException">
+            <summary>
+            Deleta o arquivo de excessoes.txt
+            </summary>
+        </member>
+        <member name="M:LibraryADS2022.TratamentoExcecao.ClearException">
+            <summary>
+            Limpa todo o arquivo de excessão
+            </summary>
+        </member>
+    </members>
+</doc>

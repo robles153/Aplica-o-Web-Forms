@@ -1,0 +1,7 @@
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\bin\Debug\LibraryADS2022.dll
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\bin\Debug\LibraryADS2022.pdb
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\obj\Debug\LibraryADS2022.csproj.CoreCompileInputs.cache
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\obj\Debug\LibraryADS2022.dll
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\obj\Debug\LibraryADS2022.pdb
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\bin\Debug\LibraryADS2022.xml
+C:\Users\0040482022016\Documents\dll\LibraryADS2022\obj\Debug\LibraryADS2022.csproj.AssemblyReference.cache
